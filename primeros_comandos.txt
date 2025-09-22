@@ -1,2 +1,8 @@
-git init #iniciarlizar un repositorio en un proyecto
-
+git init-> iniciarlizar un repositorio en un proyecto, crea una rama (main)
+git add->añade los archivos que modificamos o creamos
+una vez que quedan los archivos en el stagin area se corre el comando git commit, guárdandolos
+con git push-> podemos guardarlos a la nube
+git status-> permite visualizar los cambios dentro del proyecto 
+git add + nombre del archivo con su extensión -> agrega el archivo a stage 
+git add . -> agrega todos los archivos que estpen en changes
+git commit -m "first commit" -> con m dejo un mensaje
