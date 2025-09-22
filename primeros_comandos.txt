@@ -5,4 +5,13 @@ con git push-> podemos guardarlos a la nube
 git status-> permite visualizar los cambios dentro del proyecto 
 git add + nombre del archivo con su extensión -> agrega el archivo a stage 
 git add . -> agrega todos los archivos que estpen en changes
+git commit crea una "instantánea" de los cambios preparados en tu proyecto, como un punto de guardado, que se almacena en el historial de tu repositorio local
 git commit -m "first commit" -> con m dejo un mensaje
+git log -> visualizar todos los commit que se hayan hecho en el repositorio
+git config --global user.name "nombre"
+git config --global user.email "correo"
+git branch y "nombre" -> ej. git branch dev, nos crea una nueva rama
+git branch-> visualizar todas las ramas en el repositorio activas
+git checkout nombre.rama -> cambia la rama en la que estamos trabajando (paso a esa)
+git checkout -B "qa#-> crea una nueva rama y la cambia (paso a estar en esa rama)
+git merge "nombre rama" -> trae o combina los cambios de la rama (nombre rama)
