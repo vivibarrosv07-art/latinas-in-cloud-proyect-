@@ -15,3 +15,6 @@ git branch-> visualizar todas las ramas en el repositorio activas
 git checkout nombre.rama -> cambia la rama en la que estamos trabajando (paso a esa)
 git checkout -B "qa#-> crea una nueva rama y la cambia (paso a estar en esa rama)
 git merge "nombre rama" -> trae o combina los cambios de la rama (nombre rama)
+git branch -M main(le cambia el nombre a la rama en la que estoy)
+git remote add origin +url de github conecta el local a la nube 
+git push -u origin "nombre rama" empuja los cambios de local a la nube 
